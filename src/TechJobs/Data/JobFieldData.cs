@@ -28,6 +28,7 @@ namespace TechJobs.Data
                           select field;
 
             return results.Single();
+            
         }
 
         internal TField AddUnique(string fieldValue)
